@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "addsynapse-rooms": {
+      "type": "streamable-http",
+      "url": "https://api.addsynapse.com/mcp/rooms",
+      "extensions": { "com.openai": { "auth": { "type": "none" } } }
+    }
+  }
+}
