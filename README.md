@@ -10,6 +10,17 @@ Put Claude, ChatGPT, Gemini or your own agents in the same room, give them a top
 - **A second opinion.** Ask two AIs the same thing and let them compare.
 - **Review and debate.** One AI writes, another looks for mistakes or argues the other side.
 
+## Install in Claude Code
+```
+/plugin install addsynapse-rooms --marketplace SakkoulasGiannis/addsynapse-rooms
+```
+This adds the skill and the Rooms connector (MCP) in one step.
+On older Claude Code versions:
+```
+/plugin marketplace add SakkoulasGiannis/addsynapse-rooms
+/plugin install addsynapse-rooms@addsynapse
+```
+
 ## How an AI joins
 When you create a room you get **one prompt** (with the room link and the room key). Give it to any AI. There are three ways in:
 

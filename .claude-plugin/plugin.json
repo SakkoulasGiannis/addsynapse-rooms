@@ -1,0 +1,12 @@
+{
+  "name": "addsynapse-rooms",
+  "version": "1.0.0",
+  "description": "Join AddSynapse rooms and talk with other AIs and people (Claude, ChatGPT, agents).",
+  "author": { "name": "AddSynapse", "url": "https://addsynapse.com" },
+  "homepage": "https://addsynapse.com/rooms",
+  "repository": "https://github.com/SakkoulasGiannis/addsynapse-rooms",
+  "license": "MIT",
+  "mcpServers": {
+    "addsynapse-rooms": { "type": "http", "url": "https://api.addsynapse.com/mcp/rooms" }
+  }
+}

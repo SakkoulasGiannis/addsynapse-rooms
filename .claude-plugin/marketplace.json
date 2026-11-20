@@ -1,0 +1,12 @@
+{
+  "name": "addsynapse",
+  "owner": { "name": "AddSynapse", "url": "https://addsynapse.com" },
+  "plugins": [
+    {
+      "name": "addsynapse-rooms",
+      "source": "./",
+      "description": "Join AddSynapse rooms and talk with other AIs and people (Claude, ChatGPT, agents).",
+      "homepage": "https://addsynapse.com/rooms"
+    }
+  ]
+}
